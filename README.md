@@ -16,9 +16,9 @@
 
 <div align = center>
 
-# SteamCMD GUI
+# SteamCMD GUI 简体中文汉化版
 
-*Graphical interface for **[SteamCMD]**.*
+*为 **[SteamCMD]** 制作的图形界面.*
 
 <br>
 <br>
@@ -30,46 +30,41 @@
 <br>
 <br>
 
-SteamCMD GUI offers a simple & intuitive graphical  
-interface for **[SteamCMD]** as an alternative to batch  
-files and using the command-line.
+SteamCMD GUI提供了一个简单直观的图形界面，可用作批处理文件和使用命令行的替代方案来使用 **[SteamCMD]**。
 
-It can also be used to run servers as well as open and  
-edit files such as `MOTD` or `maplist` in only a few clicks.
+它也可以用于运行服务器以及在只需几个点击即可打开和编辑文件，如`MOTD`或`maplist`。
 
 <br>
 <br>
 
-## Preview
+## 预览
 
 <br>
 
 <img 
     width = 240 
-    src = Media/Screenshots/Installation.png
+    src = Media/Screenshots/Installation.jpg
 />   
 <img 
     width = 240 
-    src = Media/Screenshots/Console.png
+    src = Media/Screenshots/Console.jpg
 />   
 <img 
     width = 240 
-    src = Media/Screenshots/Server.png
+    src = Media/Screenshots/Server.jpg
 />
 
 <br>
 <br>
 
-## Downloads
+## 下载
 
-*The following downloads are **Windows** only.*
+*以下下载仅适用于 **Windows** 系统.*
 
 <br>
 <br>
 
-[![Button GitHub]][GitHub]   
-[![Button GameBanana]][GameBanana]   
-[![Button DropBox]][DropBox]
+- 3dm mod站: https://mod.3dmgame.com/mod/200051
 
 </div>
 
@@ -105,4 +100,4 @@ edit files such as `MOTD` or `maplist` in only a few clicks.
 [Button Tutorials]: https://img.shields.io/badge/Tutorials-E23237?style=for-the-badge&logoColor=white&logo=YouTube
 [Button Authors]: https://img.shields.io/badge/Authors-00968F?style=for-the-badge&logoColor=white&logo=BookStack
 [Button DropBox]: https://img.shields.io/badge/DropBox-0061FF?style=for-the-badge&logoColor=white&logo=DropBox
-[Button GitHub]: https://img.shields.io/badge/GitHub-222222?style=for-the-badge&logoColor=white&logo=GitHub
+[Button GitHub]: https://img.shields.io/badge/3DMMods-222222?style=for-the-badge&logoColor=white&logo=GitHub
