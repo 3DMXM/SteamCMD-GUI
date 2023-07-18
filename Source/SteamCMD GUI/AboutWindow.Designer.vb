@@ -32,6 +32,8 @@ Partial Class AboutWindow
         Me.ChangelogButton = New System.Windows.Forms.Button()
         Me.LicenseURL = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.LicenseURL, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -91,10 +93,24 @@ Partial Class AboutWindow
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.TabStop = False
         '
+        'Label2
+        '
+        resources.ApplyResources(Me.Label2, "Label2")
+        Me.Label2.Name = "Label2"
+        '
+        'Label3
+        '
+        resources.ApplyResources(Me.Label3, "Label3")
+        Me.Label3.BackColor = System.Drawing.SystemColors.Control
+        Me.Label3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label3.Name = "Label3"
+        '
         'AboutWindow
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ChangelogButton)
         Me.Controls.Add(Me.LicenseURL)
         Me.Controls.Add(Me.AuthorLabel2)
@@ -121,4 +137,6 @@ Partial Class AboutWindow
     Friend WithEvents AuthorLabel2 As System.Windows.Forms.Label
     Friend WithEvents LicenseURL As System.Windows.Forms.PictureBox
     Friend WithEvents ChangelogButton As System.Windows.Forms.Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class

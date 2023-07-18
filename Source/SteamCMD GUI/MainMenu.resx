@@ -156,10 +156,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="GamesList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 20</value>
+    <value>9, 18</value>
   </data>
   <data name="GamesList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 21</value>
+    <value>189, 20</value>
   </data>
   <data name="GamesList.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -177,16 +177,16 @@
     <value>12</value>
   </data>
   <data name="SteamCMDDownloadButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 15</value>
+    <value>6, 14</value>
   </data>
   <data name="SteamCMDDownloadButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 23</value>
+    <value>127, 21</value>
   </data>
   <data name="SteamCMDDownloadButton.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="SteamCMDDownloadButton.Text" xml:space="preserve">
-    <value>Download SteamCMD</value>
+    <value>下载 SteamCMD</value>
   </data>
   <data name="&gt;&gt;SteamCMDDownloadButton.Name" xml:space="preserve">
     <value>SteamCMDDownloadButton</value>
@@ -201,10 +201,10 @@
     <value>1</value>
   </data>
   <data name="DonwloadBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 308</value>
+    <value>435, 284</value>
   </data>
   <data name="DonwloadBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 18</value>
+    <value>165, 17</value>
   </data>
   <data name="DonwloadBar.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -229,10 +229,10 @@
     <value>Wingdings, 8.25pt</value>
   </data>
   <data name="OpenFolderButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 15</value>
+    <value>136, 14</value>
   </data>
   <data name="OpenFolderButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="OpenFolderButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -253,16 +253,16 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="CheckUpdatesButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 73</value>
+    <value>6, 67</value>
   </data>
   <data name="CheckUpdatesButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 23</value>
+    <value>153, 21</value>
   </data>
   <data name="CheckUpdatesButton.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="CheckUpdatesButton.Text" xml:space="preserve">
-    <value>Check for Updates</value>
+    <value>检查更新</value>
   </data>
   <data name="&gt;&gt;CheckUpdatesButton.Name" xml:space="preserve">
     <value>CheckUpdatesButton</value>
@@ -280,16 +280,16 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="VDCButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 44</value>
+    <value>6, 41</value>
   </data>
   <data name="VDCButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 23</value>
+    <value>153, 21</value>
   </data>
   <data name="VDCButton.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="VDCButton.Text" xml:space="preserve">
-    <value>Valve Developer Community</value>
+    <value>Valve 开发者社区</value>
   </data>
   <data name="&gt;&gt;VDCButton.Name" xml:space="preserve">
     <value>VDCButton</value>
@@ -304,16 +304,16 @@
     <value>3</value>
   </data>
   <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 34</value>
+    <value>435, 31</value>
   </data>
   <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 101</value>
+    <value>165, 93</value>
   </data>
   <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="GroupBox1.Text" xml:space="preserve">
-    <value>Tools</value>
+    <value>工具</value>
   </data>
   <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
     <value>GroupBox1</value>
@@ -328,16 +328,16 @@
     <value>10</value>
   </data>
   <data name="AboutButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 252</value>
+    <value>435, 233</value>
   </data>
   <data name="AboutButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 23</value>
+    <value>79, 21</value>
   </data>
   <data name="AboutButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="AboutButton.Text" xml:space="preserve">
-    <value>About</value>
+    <value>关于</value>
   </data>
   <data name="&gt;&gt;AboutButton.Name" xml:space="preserve">
     <value>AboutButton</value>
@@ -352,16 +352,16 @@
     <value>8</value>
   </data>
   <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>520, 252</value>
+    <value>520, 233</value>
   </data>
   <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>80, 21</value>
   </data>
   <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="ExitButton.Text" xml:space="preserve">
-    <value>Exit</value>
+    <value>退出</value>
   </data>
   <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
     <value>ExitButton</value>
@@ -376,16 +376,16 @@
     <value>9</value>
   </data>
   <data name="AddCustomGameButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 18</value>
+    <value>284, 17</value>
   </data>
   <data name="AddCustomGameButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 21</value>
   </data>
   <data name="AddCustomGameButton.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
   <data name="AddCustomGameButton.Text" xml:space="preserve">
-    <value>Add Custom</value>
+    <value>添加自定义</value>
   </data>
   <data name="&gt;&gt;AddCustomGameButton.Name" xml:space="preserve">
     <value>AddCustomGameButton</value>
@@ -403,16 +403,16 @@
     <value>True</value>
   </data>
   <data name="CheckBoxConsole.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 178</value>
+    <value>103, 164</value>
   </data>
   <data name="CheckBoxConsole.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
+    <value>84, 16</value>
   </data>
   <data name="CheckBoxConsole.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
   <data name="CheckBoxConsole.Text" xml:space="preserve">
-    <value>Use the Console</value>
+    <value>使用控制台</value>
   </data>
   <data name="&gt;&gt;CheckBoxConsole.Name" xml:space="preserve">
     <value>CheckBoxConsole</value>
@@ -430,16 +430,16 @@
     <value>True</value>
   </data>
   <data name="ValidateCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 178</value>
+    <value>9, 164</value>
   </data>
   <data name="ValidateCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 17</value>
+    <value>72, 16</value>
   </data>
   <data name="ValidateCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
   <data name="ValidateCheckBox.Text" xml:space="preserve">
-    <value>Validate Files</value>
+    <value>验证文件</value>
   </data>
   <data name="&gt;&gt;ValidateCheckBox.Name" xml:space="preserve">
     <value>ValidateCheckBox</value>
@@ -460,10 +460,10 @@
     <value>Wingdings, 8.25pt</value>
   </data>
   <data name="IdHelpButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 18</value>
+    <value>368, 17</value>
   </data>
   <data name="IdHelpButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="IdHelpButton.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -481,16 +481,16 @@
     <value>3</value>
   </data>
   <data name="BrowserButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 144</value>
+    <value>323, 133</value>
   </data>
   <data name="BrowserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 23</value>
+    <value>68, 21</value>
   </data>
   <data name="BrowserButton.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="BrowserButton.Text" xml:space="preserve">
-    <value>Browser</value>
+    <value>游览</value>
   </data>
   <data name="&gt;&gt;BrowserButton.Name" xml:space="preserve">
     <value>BrowserButton</value>
@@ -508,16 +508,16 @@
     <value>False</value>
   </data>
   <data name="UpdateServerButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 172</value>
+    <value>292, 159</value>
   </data>
   <data name="UpdateServerButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 23</value>
+    <value>99, 21</value>
   </data>
   <data name="UpdateServerButton.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
   <data name="UpdateServerButton.Text" xml:space="preserve">
-    <value>Update/Install</value>
+    <value>更新/安装</value>
   </data>
   <data name="&gt;&gt;UpdateServerButton.Name" xml:space="preserve">
     <value>UpdateServerButton</value>
@@ -535,16 +535,16 @@
     <value>True</value>
   </data>
   <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 130</value>
+    <value>6, 120</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 13</value>
+    <value>65, 12</value>
   </data>
   <data name="Label2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
-    <value>Server Path</value>
+    <value>服务器路径</value>
   </data>
   <data name="&gt;&gt;Label2.Name" xml:space="preserve">
     <value>Label2</value>
@@ -559,10 +559,10 @@
     <value>6</value>
   </data>
   <data name="ServerPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 146</value>
+    <value>6, 135</value>
   </data>
   <data name="ServerPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 20</value>
+    <value>311, 21</value>
   </data>
   <data name="ServerPath.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -583,16 +583,16 @@
     <value>True</value>
   </data>
   <data name="AnonymousCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 68</value>
+    <value>112, 63</value>
   </data>
   <data name="AnonymousCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 17</value>
+    <value>96, 16</value>
   </data>
   <data name="AnonymousCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="AnonymousCheckBox.Text" xml:space="preserve">
-    <value>Login as Anonymous</value>
+    <value>使用匿名登录</value>
   </data>
   <data name="&gt;&gt;AnonymousCheckBox.Name" xml:space="preserve">
     <value>AnonymousCheckBox</value>
@@ -610,16 +610,16 @@
     <value>True</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 50</value>
+    <value>6, 46</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 13</value>
+    <value>29, 12</value>
   </data>
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>Login</value>
+    <value>登录</value>
   </data>
   <data name="&gt;&gt;Label1.Name" xml:space="preserve">
     <value>Label1</value>
@@ -634,10 +634,10 @@
     <value>9</value>
   </data>
   <data name="UsernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 66</value>
+    <value>6, 61</value>
   </data>
   <data name="UsernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>100, 21</value>
   </data>
   <data name="UsernameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -658,7 +658,7 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="PasswdTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 90</value>
+    <value>6, 83</value>
   </data>
   <data name="PasswdTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
@@ -682,10 +682,10 @@
     <value>True</value>
   </data>
   <data name="GoldSrcModLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 22</value>
+    <value>284, 20</value>
   </data>
   <data name="GoldSrcModLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 13</value>
+    <value>71, 12</value>
   </data>
   <data name="GoldSrcModLabel.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -709,10 +709,10 @@
     <value>13</value>
   </data>
   <data name="GoldSrcModInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 20</value>
+    <value>204, 18</value>
   </data>
   <data name="GoldSrcModInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 20</value>
+    <value>74, 21</value>
   </data>
   <data name="GoldSrcModInput.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -733,16 +733,16 @@
     <value>14</value>
   </data>
   <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 60</value>
+    <value>6, 55</value>
   </data>
   <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>397, 211</value>
+    <value>397, 195</value>
   </data>
   <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="GroupBox2.Text" xml:space="preserve">
-    <value>Server Configuration</value>
+    <value>服务器配置</value>
   </data>
   <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
     <value>GroupBox2</value>
@@ -760,10 +760,10 @@
     <value>False</value>
   </data>
   <data name="Status.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 335</value>
+    <value>12, 309</value>
   </data>
   <data name="Status.Size" type="System.Drawing.Size, System.Drawing">
-    <value>502, 20</value>
+    <value>502, 21</value>
   </data>
   <data name="Status.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -787,16 +787,16 @@
     <value>188, 17</value>
   </metadata>
   <data name="ESButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 74</value>
+    <value>6, 68</value>
   </data>
   <data name="ESButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 23</value>
+    <value>153, 21</value>
   </data>
   <data name="ESButton.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
   <data name="ESButton.Text" xml:space="preserve">
-    <value>EventScripts</value>
+    <value>事件脚本</value>
   </data>
   <data name="&gt;&gt;ESButton.Name" xml:space="preserve">
     <value>ESButton</value>
@@ -811,10 +811,10 @@
     <value>0</value>
   </data>
   <data name="MMButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 45</value>
+    <value>6, 42</value>
   </data>
   <data name="MMButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 23</value>
+    <value>153, 21</value>
   </data>
   <data name="MMButton.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -835,10 +835,10 @@
     <value>1</value>
   </data>
   <data name="SMButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+    <value>6, 18</value>
   </data>
   <data name="SMButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 23</value>
+    <value>153, 21</value>
   </data>
   <data name="SMButton.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -859,16 +859,16 @@
     <value>2</value>
   </data>
   <data name="GroupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 141</value>
+    <value>435, 130</value>
   </data>
   <data name="GroupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 105</value>
+    <value>165, 97</value>
   </data>
   <data name="GroupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>100</value>
   </data>
   <data name="GroupBox3.Text" xml:space="preserve">
-    <value>Addons</value>
+    <value>插件</value>
   </data>
   <data name="&gt;&gt;GroupBox3.Name" xml:space="preserve">
     <value>GroupBox3</value>
@@ -883,16 +883,16 @@
     <value>5</value>
   </data>
   <data name="ExeBrowserButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 15</value>
+    <value>323, 14</value>
   </data>
   <data name="ExeBrowserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 23</value>
+    <value>68, 21</value>
   </data>
   <data name="ExeBrowserButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="ExeBrowserButton.Text" xml:space="preserve">
-    <value>Browser</value>
+    <value>游览</value>
   </data>
   <data name="&gt;&gt;ExeBrowserButton.Name" xml:space="preserve">
     <value>ExeBrowserButton</value>
@@ -907,10 +907,10 @@
     <value>0</value>
   </data>
   <data name="ExePath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 17</value>
+    <value>90, 16</value>
   </data>
   <data name="ExePath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 20</value>
+    <value>227, 21</value>
   </data>
   <data name="ExePath.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -931,16 +931,16 @@
     <value>True</value>
   </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 20</value>
+    <value>6, 18</value>
   </data>
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 13</value>
+    <value>83, 12</value>
   </data>
   <data name="Label4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="Label4.Text" xml:space="preserve">
-    <value>SteamCMD path</value>
+    <value>SteamCMD 路径</value>
   </data>
   <data name="&gt;&gt;Label4.Name" xml:space="preserve">
     <value>Label4</value>
@@ -958,13 +958,13 @@
     <value>6, 6</value>
   </data>
   <data name="GroupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>397, 48</value>
+    <value>397, 44</value>
   </data>
   <data name="GroupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="GroupBox4.Text" xml:space="preserve">
-    <value>SteamCMD Configuration</value>
+    <value>SteamCMD 配置</value>
   </data>
   <data name="&gt;&gt;GroupBox4.Name" xml:space="preserve">
     <value>GroupBox4</value>
@@ -985,13 +985,13 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="UpdateTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>580, 277</value>
+    <value>580, 254</value>
   </data>
   <data name="UpdateTab.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="UpdateTab.Text" xml:space="preserve">
-    <value>Update/Install</value>
+    <value>更新/安装</value>
   </data>
   <data name="&gt;&gt;UpdateTab.Name" xml:space="preserve">
     <value>UpdateTab</value>
@@ -1009,10 +1009,10 @@
     <value>Center</value>
   </data>
   <data name="AddButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 173</value>
+    <value>293, 160</value>
   </data>
   <data name="AddButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="AddButton.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -1033,10 +1033,10 @@
     <value>Center</value>
   </data>
   <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 173</value>
+    <value>368, 160</value>
   </data>
   <data name="SaveButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="SaveButton.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1057,16 +1057,16 @@
     <value>True</value>
   </data>
   <data name="InsecureCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 179</value>
+    <value>11, 165</value>
   </data>
   <data name="InsecureCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 17</value>
+    <value>84, 16</value>
   </data>
   <data name="InsecureCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
   <data name="InsecureCheckBox.Text" xml:space="preserve">
-    <value>Insecure</value>
+    <value>不安全模式</value>
   </data>
   <data name="&gt;&gt;InsecureCheckBox.Name" xml:space="preserve">
     <value>InsecureCheckBox</value>
@@ -1084,16 +1084,16 @@
     <value>True</value>
   </data>
   <data name="DevModeCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 179</value>
+    <value>196, 165</value>
   </data>
   <data name="DevModeCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 17</value>
+    <value>84, 16</value>
   </data>
   <data name="DevModeCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
   <data name="DevModeCheckBox.Text" xml:space="preserve">
-    <value>Dev Messages</value>
+    <value>开发者消息</value>
   </data>
   <data name="&gt;&gt;DevModeCheckBox.Name" xml:space="preserve">
     <value>DevModeCheckBox</value>
@@ -1111,16 +1111,16 @@
     <value>False</value>
   </data>
   <data name="RunServerButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 173</value>
+    <value>322, 160</value>
   </data>
   <data name="RunServerButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 23</value>
+    <value>40, 21</value>
   </data>
   <data name="RunServerButton.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
   <data name="RunServerButton.Text" xml:space="preserve">
-    <value>Run</value>
+    <value>运行</value>
   </data>
   <data name="&gt;&gt;RunServerButton.Name" xml:space="preserve">
     <value>RunServerButton</value>
@@ -1138,16 +1138,16 @@
     <value>True</value>
   </data>
   <data name="ConsoleCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 156</value>
+    <value>196, 144</value>
   </data>
   <data name="ConsoleCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 17</value>
+    <value>84, 16</value>
   </data>
   <data name="ConsoleCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
   <data name="ConsoleCheckBox.Text" xml:space="preserve">
-    <value>Console Mode</value>
+    <value>控制台模式</value>
   </data>
   <data name="&gt;&gt;ConsoleCheckBox.Name" xml:space="preserve">
     <value>ConsoleCheckBox</value>
@@ -1165,16 +1165,16 @@
     <value>True</value>
   </data>
   <data name="BotsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 179</value>
+    <value>105, 165</value>
   </data>
   <data name="BotsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>84, 16</value>
   </data>
   <data name="BotsCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
   <data name="BotsCheckBox.Text" xml:space="preserve">
-    <value>Disable Bots</value>
+    <value>禁用机器人</value>
   </data>
   <data name="&gt;&gt;BotsCheckBox.Name" xml:space="preserve">
     <value>BotsCheckBox</value>
@@ -1192,10 +1192,10 @@
     <value>True</value>
   </data>
   <data name="SourceTVCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 156</value>
+    <value>105, 144</value>
   </data>
   <data name="SourceTVCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 17</value>
+    <value>72, 16</value>
   </data>
   <data name="SourceTVCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -1219,16 +1219,16 @@
     <value>True</value>
   </data>
   <data name="DebugModeCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 156</value>
+    <value>11, 144</value>
   </data>
   <data name="DebugModeCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 17</value>
+    <value>72, 16</value>
   </data>
   <data name="DebugModeCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
   <data name="DebugModeCheckBox.Text" xml:space="preserve">
-    <value>Debug Mode</value>
+    <value>调试模式</value>
   </data>
   <data name="&gt;&gt;DebugModeCheckBox.Name" xml:space="preserve">
     <value>DebugModeCheckBox</value>
@@ -1246,7 +1246,7 @@
     <value>True</value>
   </data>
   <data name="CheckBoxMask.Location" type="System.Drawing.Point, System.Drawing">
-    <value>374, 130</value>
+    <value>374, 120</value>
   </data>
   <data name="CheckBoxMask.Size" type="System.Drawing.Size, System.Drawing">
     <value>15, 14</value>
@@ -1267,10 +1267,10 @@
     <value>9</value>
   </data>
   <data name="UDPPortTexBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 128</value>
+    <value>79, 118</value>
   </data>
   <data name="UDPPortTexBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>100, 21</value>
   </data>
   <data name="UDPPortTexBox.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1294,7 +1294,7 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="RconTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 125</value>
+    <value>278, 115</value>
   </data>
   <data name="RconTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 22</value>
@@ -1318,10 +1318,10 @@
     <value>True</value>
   </data>
   <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 130</value>
+    <value>238, 120</value>
   </data>
   <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 13</value>
+    <value>29, 12</value>
   </data>
   <data name="Label11.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -1345,16 +1345,16 @@
     <value>True</value>
   </data>
   <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 130</value>
+    <value>6, 120</value>
   </data>
   <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 13</value>
+    <value>53, 12</value>
   </data>
   <data name="Label10.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="Label10.Text" xml:space="preserve">
-    <value>UDP Port</value>
+    <value>UDP 端口</value>
   </data>
   <data name="&gt;&gt;Label10.Name" xml:space="preserve">
     <value>Label10</value>
@@ -1375,10 +1375,10 @@
     <value>LAN</value>
   </data>
   <data name="NetworkComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 100</value>
+    <value>79, 92</value>
   </data>
   <data name="NetworkComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 21</value>
+    <value>128, 20</value>
   </data>
   <data name="NetworkComboBox.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1396,13 +1396,13 @@
     <value>14</value>
   </data>
   <data name="ServerNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 47</value>
+    <value>79, 43</value>
   </data>
   <data name="ServerNameTextBox.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
   <data name="ServerNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 20</value>
+    <value>199, 21</value>
   </data>
   <data name="ServerNameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1426,16 +1426,16 @@
     <value>True</value>
   </data>
   <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 50</value>
+    <value>6, 46</value>
   </data>
   <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 13</value>
+    <value>65, 12</value>
   </data>
   <data name="Label7.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="Label7.Text" xml:space="preserve">
-    <value>Server Name</value>
+    <value>服务器名称</value>
   </data>
   <data name="&gt;&gt;Label7.Name" xml:space="preserve">
     <value>Label7</value>
@@ -1450,10 +1450,10 @@
     <value>16</value>
   </data>
   <data name="MaxPlayersTexBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 101</value>
+    <value>322, 93</value>
   </data>
   <data name="MaxPlayersTexBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
+    <value>46, 21</value>
   </data>
   <data name="MaxPlayersTexBox.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1480,10 +1480,10 @@
     <value>Wingdings, 8.25pt</value>
   </data>
   <data name="ModHelpButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 18</value>
+    <value>368, 17</value>
   </data>
   <data name="ModHelpButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="ModHelpButton.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1504,13 +1504,13 @@
     <value>False</value>
   </data>
   <data name="CustomModTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 20</value>
+    <value>204, 18</value>
   </data>
   <data name="CustomModTextBox.MaxLength" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
   <data name="CustomModTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 20</value>
+    <value>74, 21</value>
   </data>
   <data name="CustomModTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1561,10 +1561,10 @@
     <value>Team Fortress 2</value>
   </data>
   <data name="ModList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 20</value>
+    <value>9, 18</value>
   </data>
   <data name="ModList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 21</value>
+    <value>189, 20</value>
   </data>
   <data name="ModList.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1585,16 +1585,16 @@
     <value>True</value>
   </data>
   <data name="CustomModCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 22</value>
+    <value>284, 20</value>
   </data>
   <data name="CustomModCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>72, 16</value>
   </data>
   <data name="CustomModCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="CustomModCheckBox.Text" xml:space="preserve">
-    <value>Custom Mod</value>
+    <value>定制模式</value>
   </data>
   <data name="&gt;&gt;CustomModCheckBox.Name" xml:space="preserve">
     <value>CustomModCheckBox</value>
@@ -1612,13 +1612,13 @@
     <value>False</value>
   </data>
   <data name="MapList.ItemHeight" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="MapList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 73</value>
+    <value>79, 67</value>
   </data>
   <data name="MapList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
+    <value>199, 20</value>
   </data>
   <data name="MapList.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1639,16 +1639,16 @@
     <value>True</value>
   </data>
   <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 103</value>
+    <value>238, 95</value>
   </data>
   <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 13</value>
+    <value>53, 12</value>
   </data>
   <data name="Label6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="Label6.Text" xml:space="preserve">
-    <value>Max Players</value>
+    <value>最大玩家</value>
   </data>
   <data name="&gt;&gt;Label6.Name" xml:space="preserve">
     <value>Label6</value>
@@ -1666,16 +1666,16 @@
     <value>True</value>
   </data>
   <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 103</value>
+    <value>6, 95</value>
   </data>
   <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 13</value>
+    <value>29, 12</value>
   </data>
   <data name="Label8.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="Label8.Text" xml:space="preserve">
-    <value>Network</value>
+    <value>网络</value>
   </data>
   <data name="&gt;&gt;Label8.Name" xml:space="preserve">
     <value>Label8</value>
@@ -1693,16 +1693,16 @@
     <value>True</value>
   </data>
   <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 76</value>
+    <value>6, 70</value>
   </data>
   <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 13</value>
+    <value>29, 12</value>
   </data>
   <data name="Label5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="Label5.Text" xml:space="preserve">
-    <value>Map</value>
+    <value>地图</value>
   </data>
   <data name="&gt;&gt;Label5.Name" xml:space="preserve">
     <value>Label5</value>
@@ -1717,16 +1717,16 @@
     <value>25</value>
   </data>
   <data name="GroupBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 60</value>
+    <value>6, 55</value>
   </data>
   <data name="GroupBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>397, 211</value>
+    <value>397, 195</value>
   </data>
   <data name="GroupBox6.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="GroupBox6.Text" xml:space="preserve">
-    <value>Game Configuration</value>
+    <value>游戏配置</value>
   </data>
   <data name="&gt;&gt;GroupBox6.Name" xml:space="preserve">
     <value>GroupBox6</value>
@@ -1750,10 +1750,10 @@
     <value>Wingdings, 8.25pt</value>
   </data>
   <data name="SrcdsExePathOpen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 15</value>
+    <value>368, 14</value>
   </data>
   <data name="SrcdsExePathOpen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="SrcdsExePathOpen.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1771,16 +1771,16 @@
     <value>0</value>
   </data>
   <data name="SrcdsExeBrowserButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>294, 15</value>
+    <value>294, 14</value>
   </data>
   <data name="SrcdsExeBrowserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 23</value>
+    <value>68, 21</value>
   </data>
   <data name="SrcdsExeBrowserButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="SrcdsExeBrowserButton.Text" xml:space="preserve">
-    <value>Browser</value>
+    <value>游览</value>
   </data>
   <data name="&gt;&gt;SrcdsExeBrowserButton.Name" xml:space="preserve">
     <value>SrcdsExeBrowserButton</value>
@@ -1795,10 +1795,10 @@
     <value>1</value>
   </data>
   <data name="SrcdsExePathTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 17</value>
+    <value>70, 16</value>
   </data>
   <data name="SrcdsExePathTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 20</value>
+    <value>218, 21</value>
   </data>
   <data name="SrcdsExePathTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1819,16 +1819,16 @@
     <value>True</value>
   </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 20</value>
+    <value>6, 18</value>
   </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 13</value>
+    <value>65, 12</value>
   </data>
   <data name="Label3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
-    <value>Srcds path</value>
+    <value>Srcds 路径</value>
   </data>
   <data name="&gt;&gt;Label3.Name" xml:space="preserve">
     <value>Label3</value>
@@ -1846,13 +1846,13 @@
     <value>6, 6</value>
   </data>
   <data name="GroupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>397, 48</value>
+    <value>397, 44</value>
   </data>
   <data name="GroupBox5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="GroupBox5.Text" xml:space="preserve">
-    <value>Srcds Configuration</value>
+    <value>Srcds 配置</value>
   </data>
   <data name="&gt;&gt;GroupBox5.Name" xml:space="preserve">
     <value>GroupBox5</value>
@@ -1873,13 +1873,13 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="RunTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>580, 277</value>
+    <value>580, 254</value>
   </data>
   <data name="RunTab.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="RunTab.Text" xml:space="preserve">
-    <value>Run Server</value>
+    <value>运行服务器</value>
   </data>
   <data name="&gt;&gt;RunTab.Name" xml:space="preserve">
     <value>RunTab</value>
@@ -1903,7 +1903,7 @@
     <value>551, 6</value>
   </data>
   <data name="ConsoleConnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="ConsoleConnect.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1927,10 +1927,10 @@
     <value>NoControl</value>
   </data>
   <data name="ConsoleIPPrint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>551, 137</value>
+    <value>551, 126</value>
   </data>
   <data name="ConsoleIPPrint.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="ConsoleIPPrint.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1951,10 +1951,10 @@
     <value>Center</value>
   </data>
   <data name="ConsoleClearLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>551, 93</value>
+    <value>551, 86</value>
   </data>
   <data name="ConsoleClearLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="ConsoleClearLog.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1975,10 +1975,10 @@
     <value>Center</value>
   </data>
   <data name="ConsoleOpenLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>551, 35</value>
+    <value>551, 32</value>
   </data>
   <data name="ConsoleOpenLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="ConsoleOpenLog.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1999,10 +1999,10 @@
     <value>Center</value>
   </data>
   <data name="ConsoleSaveLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>551, 64</value>
+    <value>551, 59</value>
   </data>
   <data name="ConsoleSaveLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>23, 21</value>
   </data>
   <data name="ConsoleSaveLog.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -2032,10 +2032,10 @@
     <value>echo</value>
   </data>
   <data name="ConsoleCommandList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 250</value>
+    <value>6, 231</value>
   </data>
   <data name="ConsoleCommandList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 21</value>
+    <value>88, 20</value>
   </data>
   <data name="ConsoleCommandList.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2056,10 +2056,10 @@
     <value>False</value>
   </data>
   <data name="ConsoleButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 248</value>
+    <value>519, 229</value>
   </data>
   <data name="ConsoleButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+    <value>55, 21</value>
   </data>
   <data name="ConsoleButton.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2083,10 +2083,10 @@
     <value>False</value>
   </data>
   <data name="ConsoleInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 250</value>
+    <value>100, 231</value>
   </data>
   <data name="ConsoleInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>413, 20</value>
+    <value>413, 21</value>
   </data>
   <data name="ConsoleInput.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2110,7 +2110,7 @@
     <value>6, 6</value>
   </data>
   <data name="ConsoleOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>539, 238</value>
+    <value>539, 220</value>
   </data>
   <data name="ConsoleOutput.TabIndex" type="System.Int32, mscorlib">
     <value>101</value>
@@ -2137,13 +2137,13 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="ConsoleTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>580, 277</value>
+    <value>580, 254</value>
   </data>
   <data name="ConsoleTab.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="ConsoleTab.Text" xml:space="preserve">
-    <value>Console</value>
+    <value>控制台</value>
   </data>
   <data name="&gt;&gt;ConsoleTab.Name" xml:space="preserve">
     <value>ConsoleTab</value>
@@ -2158,10 +2158,10 @@
     <value>2</value>
   </data>
   <data name="TabMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 27</value>
+    <value>12, 25</value>
   </data>
   <data name="TabMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>588, 303</value>
+    <value>588, 280</value>
   </data>
   <data name="TabMenu.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2182,19 +2182,19 @@
     <value>629, 17</value>
   </metadata>
   <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>195, 22</value>
   </data>
   <data name="ToolStripMenuItem1.Text" xml:space="preserve">
     <value>ToolStripMenuItem1</value>
   </data>
   <data name="ToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>195, 22</value>
   </data>
   <data name="ToolStripMenuItem2.Text" xml:space="preserve">
     <value>ToolStripMenuItem2</value>
   </data>
   <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 48</value>
+    <value>196, 48</value>
   </data>
   <data name="&gt;&gt;ContextMenuStrip1.Name" xml:space="preserve">
     <value>ContextMenuStrip1</value>
@@ -2209,52 +2209,52 @@
     <value>Ctrl+S</value>
   </data>
   <data name="SaveMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="SaveMenu.Text" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
   </data>
   <data name="LoadMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+O</value>
   </data>
   <data name="LoadMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="LoadMenu.Text" xml:space="preserve">
-    <value>Load</value>
+    <value>加载</value>
   </data>
   <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 6</value>
+    <value>144, 6</value>
   </data>
   <data name="ExitMenu.ShortcutKeyDisplayString" xml:space="preserve">
     <value>Alt+F4</value>
   </data>
   <data name="ExitMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="ExitMenu.Text" xml:space="preserve">
-    <value>Exit</value>
+    <value>退出</value>
   </data>
   <data name="FileMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+    <value>44, 21</value>
   </data>
   <data name="FileMenu.Text" xml:space="preserve">
-    <value>File</value>
+    <value>文件</value>
   </data>
   <data name="MotdTxtButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 22</value>
+    <value>130, 22</value>
   </data>
   <data name="MotdTxtButton.Text" xml:space="preserve">
     <value>motd</value>
   </data>
   <data name="MapcycleTxtButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 22</value>
+    <value>130, 22</value>
   </data>
   <data name="MapcycleTxtButton.Text" xml:space="preserve">
     <value>mapcycle</value>
   </data>
   <data name="MaplistTxtButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 22</value>
+    <value>130, 22</value>
   </data>
   <data name="MaplistTxtButton.Text" xml:space="preserve">
     <value>maplist</value>
@@ -2263,49 +2263,49 @@
     <value>False</value>
   </data>
   <data name="CommonFilesMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="CommonFilesMenu.Text" xml:space="preserve">
-    <value>Common Files</value>
+    <value>共同文件</value>
   </data>
   <data name="NewFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>125, 22</value>
   </data>
   <data name="NewFileToolStripMenuItem.Text" xml:space="preserve">
     <value>New File</value>
   </data>
   <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 6</value>
+    <value>122, 6</value>
   </data>
   <data name="CFGMenu.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="CFGMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="CFGMenu.Text" xml:space="preserve">
-    <value>Cfg Files</value>
+    <value>Cfg 文件</value>
   </data>
   <data name="ToolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 6</value>
+    <value>141, 6</value>
   </data>
   <data name="Empty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
+    <value>68, 22</value>
   </data>
   <data name="SMMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="SMMenu.Text" xml:space="preserve">
     <value>SourceMod</value>
   </data>
   <data name="ToolsMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+    <value>44, 21</value>
   </data>
   <data name="ToolsMenu.Text" xml:space="preserve">
-    <value>Edit</value>
+    <value>编辑</value>
   </data>
   <data name="ToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 22</value>
+    <value>80, 22</value>
   </data>
   <data name="ToolStripMenuItem4.Text" xml:space="preserve">
     <value> </value>
@@ -2314,28 +2314,28 @@
     <value>False</value>
   </data>
   <data name="LogMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>169, 22</value>
   </data>
   <data name="LogMenu.Text" xml:space="preserve">
-    <value>SteamCMD Logs</value>
+    <value>SteamCMD 日志</value>
   </data>
   <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>169, 22</value>
   </data>
   <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>About</value>
+    <value>关于</value>
   </data>
   <data name="HelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+    <value>44, 21</value>
   </data>
   <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Help</value>
+    <value>帮助</value>
   </data>
   <data name="MenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="MenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>609, 24</value>
+    <value>599, 25</value>
   </data>
   <data name="MenuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -2368,10 +2368,10 @@
     <value>NoControl</value>
   </data>
   <data name="DonateButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 278</value>
+    <value>469, 257</value>
   </data>
   <data name="DonateButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 26</value>
+    <value>92, 24</value>
   </data>
   <data name="DonateButton.TabIndex" type="System.Int32, mscorlib">
     <value>101</value>
@@ -2395,7 +2395,7 @@
     <value>Consolas, 8.25pt</value>
   </data>
   <data name="IPTextbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>520, 335</value>
+    <value>520, 309</value>
   </data>
   <data name="IPTextbox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -2425,10 +2425,10 @@
     <value>None</value>
   </data>
   <data name="IPButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>520, 335</value>
+    <value>520, 309</value>
   </data>
   <data name="IPButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 20</value>
+    <value>80, 18</value>
   </data>
   <data name="IPButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2455,19 +2455,19 @@
     <value>93</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>609, 369</value>
+    <value>599, 330</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>615, 397</value>
+    <value>615, 369</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>615, 397</value>
+    <value>615, 369</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>SteamCMD GUI</value>
+    <value>SteamCMD GUI 汉化: 小莫</value>
   </data>
   <data name="&gt;&gt;FolderBrowserDialog1.Name" xml:space="preserve">
     <value>FolderBrowserDialog1</value>

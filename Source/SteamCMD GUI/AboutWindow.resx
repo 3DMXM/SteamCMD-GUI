@@ -126,7 +126,7 @@
     <value>MS Reference Sans Serif, 8.25pt</value>
   </data>
   <data name="VersionLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 37</value>
+    <value>225, 34</value>
   </data>
   <data name="VersionLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 15</value>
@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;VersionLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="AutorLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -156,7 +156,7 @@
     <value>MS Reference Sans Serif, 8.25pt</value>
   </data>
   <data name="AutorLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 57</value>
+    <value>225, 53</value>
   </data>
   <data name="AutorLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 15</value>
@@ -177,19 +177,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AutorLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="Close2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 116</value>
+    <value>238, 128</value>
   </data>
   <data name="Close2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 21</value>
   </data>
   <data name="Close2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="Close2.Text" xml:space="preserve">
-    <value>Close</value>
+    <value>关闭</value>
   </data>
   <data name="&gt;&gt;Close2.Name" xml:space="preserve">
     <value>Close2</value>
@@ -201,7 +201,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Close2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -210,7 +210,7 @@
     <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 9</value>
+    <value>153, 8</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 20</value>
@@ -231,7 +231,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="VersionLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -240,16 +240,16 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="VersionLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 38</value>
+    <value>182, 35</value>
   </data>
   <data name="VersionLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
+    <value>34, 13</value>
   </data>
   <data name="VersionLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
   <data name="VersionLabel2.Text" xml:space="preserve">
-    <value>Version:</value>
+    <value>版本:</value>
   </data>
   <data name="&gt;&gt;VersionLabel2.Name" xml:space="preserve">
     <value>VersionLabel2</value>
@@ -261,7 +261,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;VersionLabel2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="AuthorLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -270,16 +270,16 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="AuthorLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>182, 58</value>
+    <value>182, 54</value>
   </data>
   <data name="AuthorLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 13</value>
+    <value>34, 13</value>
   </data>
   <data name="AuthorLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
   <data name="AuthorLabel2.Text" xml:space="preserve">
-    <value>Author:</value>
+    <value>作者:</value>
   </data>
   <data name="&gt;&gt;AuthorLabel2.Name" xml:space="preserve">
     <value>AuthorLabel2</value>
@@ -291,19 +291,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AuthorLabel2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="ChangelogButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 116</value>
+    <value>157, 128</value>
   </data>
   <data name="ChangelogButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 21</value>
   </data>
   <data name="ChangelogButton.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
   <data name="ChangelogButton.Text" xml:space="preserve">
-    <value>Changelog</value>
+    <value>更新日志</value>
   </data>
   <data name="&gt;&gt;ChangelogButton.Name" xml:space="preserve">
     <value>ChangelogButton</value>
@@ -315,17 +315,17 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ChangelogButton.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LicenseURL.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="LicenseURL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 79</value>
+    <value>185, 93</value>
   </data>
   <data name="LicenseURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 31</value>
+    <value>88, 29</value>
   </data>
   <data name="LicenseURL.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -340,16 +340,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LicenseURL.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="PictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 2</value>
+    <value>2, 15</value>
   </data>
   <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 145</value>
+    <value>145, 134</value>
   </data>
   <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -364,22 +364,88 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 73</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>汉化:</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS Reference Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 75</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 15</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>小莫</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>332, 147</value>
+    <value>322, 161</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>338, 171</value>
+    <value>338, 200</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>338, 171</value>
+    <value>338, 161</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SteamCMD GUI</value>

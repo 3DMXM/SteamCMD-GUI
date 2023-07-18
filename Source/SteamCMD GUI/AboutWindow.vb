@@ -29,4 +29,8 @@ Public Class AboutWindow
     Private Sub Close2_Click() Handles Close2.Click
         Close()
     End Sub
+
+    Private Sub AutorLabel_Click(sender As Object, e As EventArgs) Handles AutorLabel.Click
+
+    End Sub
 End Class

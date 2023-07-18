@@ -77,20 +77,20 @@ Public Class MainMenu
     End Sub
 
     Private Sub Tips()
-        ToolTip1.SetToolTip(OpenFolderButton, "Open current folder")
-        ToolTip1.SetToolTip(CheckBoxMask, "Mask/Unmask RCON")
-        ToolTip1.SetToolTip(AddButton, "Add more command-line parameters")
-        ToolTip1.SetToolTip(ConsoleConnect, "Connect to server")
-        ToolTip1.SetToolTip(ConsoleOpenLog, "Open logs folder")
-        ToolTip1.SetToolTip(ConsoleSaveLog, "Save the current log")
-        ToolTip1.SetToolTip(ConsoleClearLog, "Clear log")
-        ToolTip1.SetToolTip(DonateButton, "Donate via PayPal")
-        CantFindSteamCMDString = "Can't find the file 'steamcmd.exe'!"
+        ToolTip1.SetToolTip(OpenFolderButton, "打开当前文件夹")
+        ToolTip1.SetToolTip(CheckBoxMask, "屏蔽/取消屏蔽 RCON")
+        ToolTip1.SetToolTip(AddButton, "添加更多命令行参数")
+        ToolTip1.SetToolTip(ConsoleConnect, "连接到服务器")
+        ToolTip1.SetToolTip(ConsoleOpenLog, "打开日志文件夹")
+        ToolTip1.SetToolTip(ConsoleSaveLog, "保存当前日志")
+        ToolTip1.SetToolTip(ConsoleClearLog, "关闭日志")
+        ToolTip1.SetToolTip(DonateButton, "通过 PayPal 捐赠")
+        CantFindSteamCMDString = "找不到 'steamcmd.exe' 文件!"
     End Sub
 
     Private Sub IPPrint() Handles ConsoleIPPrint.Click
         For Each LocalIP As System.Net.IPAddress In IPs.AddressList
-            ConsoleOutput.Text = "Local IP address:" & vbCr & vbTab & LocalIP.ToString & vbCr & vbCr & "Public IP address:" & vbCr & vbTab & PublicIP
+            ConsoleOutput.Text = "本地IP地址:" & vbCr & vbTab & LocalIP.ToString & vbCr & vbCr & "公共IP地址:" & vbCr & vbTab & PublicIP
         Next
         IPTextbox.Text = PublicIP
     End Sub
@@ -136,14 +136,14 @@ Public Class MainMenu
     Private Sub SteamCMDDownload_Click() Handles SteamCMDDownloadButton.Click
         SteamCMDDownloadButton.Enabled = False
         If My.Computer.FileSystem.FileExists("steamcmd.zip") Then
-            Status.Text = "The file has already been downloaded!"
+            Status.Text = "文件已经下载完毕!"
             Status.BackColor = Color.FromArgb(240, 200, 200)
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
                 Media.SystemSounds.Hand)
             SteamCMDDownloadButton.Enabled = True
         Else
             WC.DownloadFileAsync(New Uri("http://media.steampowered.com/installer/steamcmd.zip"), "steamcmd.zip")
-            Status.Text = "Downloading..."
+            Status.Text = "下载中..."
             Status.BackColor = Color.FromArgb(240, 240, 240)
         End If
     End Sub
@@ -155,10 +155,10 @@ Public Class MainMenu
     Private Sub WC_DownloadProgressChanged(ByVal sender As Object, ByVal e As DownloadProgressChangedEventArgs) Handles WC.DownloadProgressChanged
         DonwloadBar.Value = e.ProgressPercentage
         If DonwloadBar.Value = 100 Then
-            Status.Text = "The file 'steamcmd.zip' has been downloaded. Please, unzip it."
+            Status.Text = "文件 'steamcmd.zip' 已下载完成, 请手动解压它."
             Status.BackColor = Color.FromArgb(240, 240, 240)
             DonwloadBar.Value = 0
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
               Media.SystemSounds.Exclamation)
             SteamCMDDownloadButton.Enabled = True
         End If
@@ -190,13 +190,13 @@ Public Class MainMenu
                 XmlWrt.Close()
 
                 LogMenu.Enabled = True
-                Status.Text = "Current path of 'steamcmd.exe' is " & FolderBrowserDialog1.SelectedPath
+                Status.Text = "'steamcmd.exe'的当前路径是: " & FolderBrowserDialog1.SelectedPath
                 Status.BackColor = Color.FromArgb(240, 240, 240)
             Else
                 LogMenu.Enabled = False
                 Status.Text = CantFindSteamCMDString
                 Status.BackColor = Color.FromArgb(240, 200, 200)
-                My.Computer.Audio.PlaySystemSound( _
+                My.Computer.Audio.PlaySystemSound(
                     Media.SystemSounds.Hand)
             End If
         End If
@@ -223,12 +223,12 @@ Public Class MainMenu
             ServerInstallPath = FolderBrowserDialog1.SelectedPath
         End If
         If ServerPath.Text = Nothing Then
-            Status.Text = "Please, select a folder for install/update the server."
+            Status.Text = "请选择用于安装/更新服务器的文件夹."
             Status.BackColor = Color.FromArgb(240, 200, 200)
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
                 Media.SystemSounds.Hand)
         Else
-            Status.Text = "The server will be installed/updated in '" & ServerPath.Text & "'"
+            Status.Text = "服务器将安装/更新在 '" & ServerPath.Text & "'"
             Status.BackColor = Color.FromArgb(240, 240, 240)
             UpdateServerButton.Enabled = True
         End If
@@ -253,14 +253,14 @@ Public Class MainMenu
             GoldSrcModLabel.Show()
             AddCustomGameButton.Hide()
         End If
-        Status.Text = "Game to install: " & GamesList.Text & " - Steam App ID:" & SteamAppID
+        Status.Text = "要安装的游戏: " & GamesList.Text & " - Steam App ID:" & SteamAppID
         Status.BackColor = Color.FromArgb(240, 240, 240)
     End Sub
 
     Private Sub ValidateCheckBox_CheckedChanged() Handles ValidateCheckBox.CheckedChanged
         If ValidateCheckBox.Checked = True Then
             ValidateApp = " validate"
-            Status.Text = "The files will be checked and validated."
+            Status.Text = "文件将被检查和验证."
         Else
             ValidateApp = ""
         End If
@@ -270,9 +270,9 @@ Public Class MainMenu
         FolderBrowserDialog1.SelectedPath = SteamCMDExePath
         If My.Computer.FileSystem.FileExists(FolderBrowserDialog1.SelectedPath & "\steamcmd.exe") Then
             If SteamAppID = Nothing Then
-                Status.Text = "Steam App ID not defined"
+                Status.Text = "Steam 应用程序 ID 未定义"
                 Status.BackColor = Color.FromArgb(240, 200, 200)
-                My.Computer.Audio.PlaySystemSound( _
+                My.Computer.Audio.PlaySystemSound(
                     Media.SystemSounds.Hand)
             Else
                 If AnonymousCheckBox.Checked = True Then
@@ -285,34 +285,34 @@ Public Class MainMenu
                     Login = UserName & " " & Passwd
                 End If
                 If UsernameTextBox.Text = Nothing AndAlso AnonymousCheckBox.Checked = False Then
-                    Status.Text = "Please, type your Steam name."
+                    Status.Text = "请输入您的 Steam 名称."
                     Status.BackColor = Color.FromArgb(240, 200, 200)
-                    My.Computer.Audio.PlaySystemSound( _
+                    My.Computer.Audio.PlaySystemSound(
                         Media.SystemSounds.Hand)
                 Else
                     If PasswdTextBox.Text = Nothing AndAlso AnonymousCheckBox.Checked = False Then
-                        Status.Text = "Please, type your Steam password. You can install many games as 'anonymous'."
+                        Status.Text = "请输入您的steam密码. 你也可以使用 '匿名' 账号下载很多的游戏."
                         Status.BackColor = Color.FromArgb(240, 200, 200)
-                        My.Computer.Audio.PlaySystemSound( _
+                        My.Computer.Audio.PlaySystemSound(
                             Media.SystemSounds.Hand)
                     Else
                         If ServerPath.Text = Nothing Then
-                            Status.Text = "Please, select the path where you want to install the server."
+                            Status.Text = "请选择您要安装服务器的路径."
                             Status.BackColor = Color.FromArgb(240, 200, 200)
-                            My.Computer.Audio.PlaySystemSound( _
+                            My.Computer.Audio.PlaySystemSound(
                                 Media.SystemSounds.Hand)
                         Else
                             If GoldSrcModInput.Visible = True _
                                 AndAlso Not String.IsNullOrEmpty(GoldSrcModInput.Text) Then
                                 GoldSrcMod = " +app_set_config 90 mod " & GoldSrcModInput.Text
                             Else
-                                Status.Text = "Half-Life mod not defined. Installing a default one."
+                                Status.Text = "Half-Life mod 未定义. 请至少安装一个默认的."
                                 Status.BackColor = Color.FromArgb(240, 200, 200)
-                                My.Computer.Audio.PlaySystemSound( _
+                                My.Computer.Audio.PlaySystemSound(
                                     Media.SystemSounds.Hand)
                             End If
                             ServerPathInstallation = Chr(34) & ServerPath.Text & Chr(34)
-                            Status.Text = "Installing/Updating..."
+                            Status.Text = "安装中/更新中..."
                             Status.BackColor = Color.FromArgb(240, 240, 240)
 
                             If CheckBoxConsole.Checked = False Then
@@ -338,7 +338,7 @@ Public Class MainMenu
         Else
             Status.Text = CantFindSteamCMDString
             Status.BackColor = Color.FromArgb(240, 200, 200)
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
                 Media.SystemSounds.Hand)
         End If
     End Sub
@@ -414,7 +414,7 @@ Public Class MainMenu
                 RunServerButton.Enabled = False
                 Status.Text = "Can't find the file 'srcds.exe'!"
                 Status.BackColor = Color.FromArgb(240, 200, 200)
-                My.Computer.Audio.PlaySystemSound( _
+                My.Computer.Audio.PlaySystemSound(
                     Media.SystemSounds.Hand)
             End If
         End If
@@ -507,7 +507,7 @@ Public Class MainMenu
         Else
             Status.Text = "The 'map' folder is empty or doesn't exist!"
             Status.BackColor = Color.FromArgb(240, 200, 200)
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
                 Media.SystemSounds.Hand)
         End If
     End Sub
@@ -529,12 +529,12 @@ Public Class MainMenu
 
     Private Sub MaxPlayersTexBox_ValueChanged() Handles MaxPlayersTexBox.TextChanged
         MaxPlayers = MaxPlayersTexBox.Value
-        Status.Text = "Max players set to " & MaxPlayers
+        Status.Text = "最大玩家数量设置为 " & MaxPlayers
     End Sub
 
     Private Sub NetworkComboBox_SelectedIndexChanged() Handles NetworkComboBox.SelectedIndexChanged
         NetworkType = NetworkComboBox.SelectedIndex
-        Status.Text = "Cvar sv_lan set to " & NetworkType
+        Status.Text = "Cvar sv_lan 设置为 " & NetworkType
     End Sub
 
     Private Sub RconTextBox_MaskInputRejected() Handles RconTextBox.TextChanged
@@ -543,7 +543,7 @@ Public Class MainMenu
 
     Private Sub UDPPortTexBox_ValueChanged() Handles UDPPortTexBox.TextChanged
         UDPPort = UDPPortTexBox.Value
-        Status.Text = "UPD port set to " & UDPPort
+        Status.Text = "UPD 端口设置为 " & UDPPort
     End Sub
 
     'Command-line Arguments
@@ -602,25 +602,25 @@ Public Class MainMenu
     Private Sub RunServerButton_Click() Handles RunServerButton.Click
         If My.Computer.FileSystem.FileExists(SrcdsExePathTextBox.Text & "\srcds.exe") Then
             If GameMod = Nothing Then
-                Status.Text = "Please, select a game."
+                Status.Text = "请先选择一款游戏."
                 Status.BackColor = Color.FromArgb(240, 200, 200)
-                My.Computer.Audio.PlaySystemSound( _
+                My.Computer.Audio.PlaySystemSound(
                     Media.SystemSounds.Hand)
             Else
                 If ServerName = Nothing Then
-                    Status.Text = "Please, type a name for the server."
+                    Status.Text = "请输入服务器的名称."
                     Status.BackColor = Color.FromArgb(240, 200, 200)
-                    My.Computer.Audio.PlaySystemSound( _
+                    My.Computer.Audio.PlaySystemSound(
                         Media.SystemSounds.Hand)
                 Else
                     If ServerMap = Nothing Then
-                        Status.Text = "Select the default map."
+                        Status.Text = "请选择默认地图."
                         Status.BackColor = Color.FromArgb(240, 200, 200)
-                        My.Computer.Audio.PlaySystemSound( _
+                        My.Computer.Audio.PlaySystemSound(
                             Media.SystemSounds.Hand)
                     Else
                         Parameters = DebugMode & SourceTV & ConsoleMode & InsecureMode & NoBots & DevMode
-                        Status.Text = "Running server..."
+                        Status.Text = "运行服务器中..."
                         Status.BackColor = Color.FromArgb(240, 240, 240)
 
                         Dim p As New Process
@@ -636,9 +636,9 @@ Public Class MainMenu
                 End If
             End If
         Else
-            Status.Text = "Can't find the file 'srcds.exe'!"
+            Status.Text = "无法找到 'srcds.exe' 文件!"
             Status.BackColor = Color.FromArgb(240, 200, 200)
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
                 Media.SystemSounds.Hand)
         End If
     End Sub
@@ -756,7 +756,7 @@ Public Class MainMenu
                 XmlWrt.Close()
                 Status.Text = Path.GetFileName(ConfigFile) & " file saved."
                 Status.BackColor = Color.FromArgb(240, 240, 240)
-                My.Computer.Audio.PlaySystemSound( _
+                My.Computer.Audio.PlaySystemSound(
                   Media.SystemSounds.Exclamation)
             End If
         End If
@@ -827,7 +827,7 @@ Public Class MainMenu
             TabMenu.SelectedTab = RunTab
             GroupBox1.Show()
             GroupBox3.Show()
-            Status.Text = "The config file has been loaded."
+            Status.Text = "配置文件已加载."
             Status.BackColor = Color.FromArgb(240, 240, 240)
         End If
     End Sub
@@ -850,13 +850,13 @@ Public Class MainMenu
                     'This works thanks to Hans Passant ^^
                 Next
             Else
-                Status.Text = "Can't find the CFG folder. New one created."
+                Status.Text = "无法找到 CFG 文件夹. 已新建了一个."
                 Directory.CreateDirectory(cfgfolderpath)
             End If
         Else
-            Status.Text = "Can't find the server files!"
+            Status.Text = "无法找到服务器文件!"
             Status.BackColor = Color.FromArgb(240, 200, 200)
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
                 Media.SystemSounds.Hand)
         End If
     End Sub
@@ -886,7 +886,7 @@ Public Class MainMenu
         Else
             File.Create(MotdPath).Dispose()
             Process.Start(MotdPath)
-            Status.Text = TxtFile.Text & " file not found. New one created."
+            Status.Text = TxtFile.Text & " 文件未找到. 已新建了一个."
         End If
     End Sub
 
@@ -905,9 +905,9 @@ Public Class MainMenu
                     AddHandler item.Click, AddressOf SMFileMenuItems_Click
                 Next
             Else
-                Status.Text = "Seems that SourceMod isn't installed."
+                Status.Text = "SourceMod 貌似没有安装."
                 Status.BackColor = Color.FromArgb(240, 200, 200)
-                My.Computer.Audio.PlaySystemSound( _
+                My.Computer.Audio.PlaySystemSound(
                     Media.SystemSounds.Hand)
             End If
         End If
@@ -947,7 +947,7 @@ Public Class MainMenu
     Private Sub ConsoleConnect_Click() Handles ConsoleConnect.Click
         'Stop steamcmd.exe
         For Each proc As Process In Process.GetProcessesByName("steamcmd")
-            Dim result As Integer = MessageBox.Show("Really want to stop and close SteamCMD?", "Stop SteamCMD", MessageBoxButtons.YesNo)
+            Dim result As Integer = MessageBox.Show("确定要停止 SteamCMD?", "停止 SteamCMD", MessageBoxButtons.YesNo)
             If result = DialogResult.Yes Then
                 If Not proc.HasExited Then
                     Game = "Game: " & GamesList.Text
@@ -960,7 +960,7 @@ Public Class MainMenu
                 End If
                 Status.Text = "SteamCMD closed."
                 Status.BackColor = Color.FromArgb(240, 200, 200)
-                My.Computer.Audio.PlaySystemSound( _
+                My.Computer.Audio.PlaySystemSound(
                     Media.SystemSounds.Hand)
             End If
         Next proc
@@ -985,10 +985,10 @@ Public Class MainMenu
     End Sub
 
     Private Sub ConsoleClearLog_Click() Handles ConsoleClearLog.Click
-        Dim result As Integer = MessageBox.Show("Really want to clear all the content?", "Clear console", MessageBoxButtons.YesNo)
+        Dim result As Integer = MessageBox.Show("确定要清空所有内容?", "清空控制台", MessageBoxButtons.YesNo)
         If result = DialogResult.Yes Then
             ConsoleOutput.Clear()
-            Status.Text = "The console has been cleaned."
+            Status.Text = "控制台已清空."
         End If
     End Sub
 
@@ -1000,14 +1000,14 @@ Public Class MainMenu
         ID = InputBox("Custom Game App ID")
 
         If ("" = Name) Then
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
             Media.SystemSounds.Hand)
             MessageBox.Show("Custom Game Name was not entered.", "Add Custom Game Error")
             Return
         End If
 
         If ("" = ID) Then
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
             Media.SystemSounds.Hand)
             MessageBox.Show("Custom Game ID was not entered.", "Add Custom Game Error")
             Return
@@ -1016,7 +1016,7 @@ Public Class MainMenu
         Dim TestInt As Integer = 0
         Integer.TryParse(ID, TestInt)
         If (TestInt = 0) Then
-            My.Computer.Audio.PlaySystemSound( _
+            My.Computer.Audio.PlaySystemSound(
             Media.SystemSounds.Hand)
             MessageBox.Show("Custom Game ID was not a number (e.x 444880).", "Add Custom Game Error")
             Return
@@ -1092,5 +1092,9 @@ Public Class MainMenu
         Clipboard.SetText(PublicIP, TextDataFormat.UnicodeText)
         Status.Text = "Public IP copied"
         Status.BackColor = Color.FromArgb(240, 240, 240)
+    End Sub
+
+    Private Sub LoadMenu_Click(sender As Object, e As EventArgs) Handles LoadMenu.Click
+
     End Sub
 End Class
